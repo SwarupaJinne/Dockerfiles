@@ -1,4 +1,4 @@
-FROM almalinux:8
-RUN yum update -y 
+FROM almalinux
 RUN yum install nginx -y
-ADD apache-tomcat-9.0.73-embed.tar.gz /tmp/
+CMD ["nginx", "-g", "daemon off;"]
+# CMD ["sleep", "20"] there should be only one CMD instruction. if we give multiple the last one will be considered 
