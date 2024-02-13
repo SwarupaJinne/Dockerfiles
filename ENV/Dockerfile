@@ -1,4 +1,4 @@
 FROM almalinux
-ENV AUTHOR="SIVAKUMAR" \
+ENV AUTHOR="SWARUPA" \
        DURATION="25HR" \
        COURSE="DOCKER"
